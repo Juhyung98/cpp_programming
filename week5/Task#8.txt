@@ -1,0 +1,29 @@
+Task#8
+•Task#8: 두 개의 정수를 입력 받은 후 사칙연산 (덧셈, 뺄셈, 곱셈, 나눗셈) 을 수행한 후, 결과값을 return 하는 4개 함수를 작성하세요. 아래 main 함수가 올바른 값을 출력하도록 적절하게 함수를 작성하세요.
+•제출: 소스코드
+
+#include <iostream>
+
+using namespace std;
+
+ 
+
+int main()
+
+{
+
+   int a = 20, b = 10;
+
+   cout << "Add: " << iAdd(a,b) << endl;
+
+   cout << "Sub: " << iSub(a,b) << endl;
+
+   cout << "Mul: " << iMul(a,b) << endl;
+
+   cout << "Div: " << iDiv(a,b) << endl;
+
+ 
+
+   return 0;
+
+}

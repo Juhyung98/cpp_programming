@@ -1,0 +1,28 @@
+Task#9
+•Task#9:  아래 sort_three라는 함수를 완성하세요. 해당 함수는,  첫 번째 parameter가 가장 큰 값을, 두번째는 두번째로 큰 값, 세번째는 가장 작은 값을 갖도록 각 변수의 값을 변경하도록 하세요.
+•출력 예:
+–Three numbers are: 500 , 100 , 90
+
+void sort_three (int& a, int& b, int& c)
+
+{
+
+   /* Fill-up here with your codes */
+
+}
+
+ 
+
+int main ()
+
+{
+
+   int i1 = 100, i2 = 90, i3 = 500;
+
+   sort_three (i1, i2, i3);
+
+   cout << "Three numbers are: "
+
+        << i1 << " , ", << i2 << " , " << i3 << endl;
+
+}
