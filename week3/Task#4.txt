@@ -1,0 +1,20 @@
+Task#4
+•Taks#4
+–Discrete math, Programming language, Data structure 3과목의 성적을 입력받아 평균을 구하고, 평균에 따른 학점을 출력하는 프로그램을 작성하세요.
+–출력 예:
+•Put the discrete math score: 65
+•Put the programming language score: 99
+•Put the data structure score: 95
+•The average score is 86.33 and the grade is B+
+–제출: 소스코드
+
+Score   Grade
+
+>95     A+
+>90     A0
+>85     B+
+>80     B0
+>75     C+
+>70     C0
+<=70    F
+

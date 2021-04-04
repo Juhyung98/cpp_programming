@@ -1,0 +1,7 @@
+Task#5
+–아래 내용을 가지는 텍스트 파일을 만드세요
+•I hate C++, hate programming language, and hate myself!
+–위 텍스트 파일의 각 단어를 읽어서 다시 화면에 출력하는 프로그램을 만드세요. 단, “hate” 라는 단어가 등장할 때마다, 이를 “love”로 변경해서 출력하세요
+–출력 예:
+•I love C++, love programming language, and love myself!
+–제출: 소스코드
