@@ -1,0 +1,5 @@
+Task #1
+1.Install the VSCode + minGW
+(혹은 Linux/MAC 등 본인이 활용할 g++ 기반의 개발 환경)
+2.Compile the “hello world” example
+3.Take a screenshot and upload it on LMS.
