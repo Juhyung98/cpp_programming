@@ -1,0 +1,25 @@
+Task#11
+•Task#11: Build overloaded “add” functions that support various data types as follows: int, double, and string.
+•
+int main(void)
+
+{
+
+   int i1 = 10, i2 = 30;
+
+   double d1 = 0.5, d2 = 3.5;
+
+   string s1 = "Hello", s2 = "World";
+
+ 
+
+   cout << add (i1, i2) << ", "
+
+        << add (d1, d2) << ", "
+
+        << add (s1, s2) << endl;
+
+}
+
+•출력 예:
+–40, 4.0, HelloWorld
