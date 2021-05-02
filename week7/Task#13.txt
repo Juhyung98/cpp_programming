@@ -1,0 +1,26 @@
+Task#13
+•Task#13: Display 6.3 예제의 DayofYear class를 직접 구현하고, 날짜를 조절해주는 adjustDay 멤버함수를 구현하세요. 
+해당 함수는 정수를 매개변수로 받아, 해당 숫자만큼 날짜를 더하거나 빼서 month, day 값을 조절합니다. 
+이 때, 한 달이 30, 31 또는 28일임을 유의하세요 (윤년은 없다고 가정)
+•출력 예:
+–Adjusted date is September 9
+•
+
+Int main ()
+
+{
+
+    DayOfYear d1;
+
+    d1.month = 8;
+
+    d1.day = 20;
+
+ 
+
+    d1.adjustDay(20);    /* add 20 days to d1 */
+
+    cout << “Adjusted date is: “ << d1.output() << endl;
+
+}
+
