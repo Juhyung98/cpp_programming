@@ -1,0 +1,30 @@
+Task#24
+•Task#24: Task#23 에서 구현한 도형 클래스/파생 클래스를 확장하여. 다수의 도형을 벡터로 관리한다.
+•아래 클래스를 구현하세요 (Task#23과 동일)
+–Class Figure
+–Class Point
+–Class Rectangle : public Figure
+–Class Circle: public Figure
+•사용자로부터 도형의 정보를 입력 받아 벡터에 저장하였다가, 입력이 완료되면 입력된 도형들을 한꺼번에 draw() 해줌
+•Hint: new operator 및 vector<Figure*> 활용
+
+•입출력 예
+Enter figure type or draw: rectangle
+
+Enter x, y coordinates of P1: 0 0
+
+Enter x, y coordinates of P2: 2 2
+
+Enter figure type or draw: circle
+
+Enter x,y coordinates of the center: 0 0
+
+Enter the radius: 2
+
+Enter figure type or draw: draw
+
+A rectangle from (0, 0) to (2, 2)
+
+A circle with the center of (0, 0) and the radius of 2
+
+
